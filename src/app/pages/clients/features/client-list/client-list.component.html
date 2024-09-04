@@ -1,0 +1,3 @@
+@for(client of clients(); track client) {
+<app-client-card [client]="client" (buy)="buy($event)" />
+}
